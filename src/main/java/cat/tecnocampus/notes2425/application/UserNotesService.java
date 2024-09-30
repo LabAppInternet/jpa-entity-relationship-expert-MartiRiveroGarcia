@@ -51,8 +51,10 @@ public class UserNotesService {
         noteRepository.update(note, noteId);
     }
 
-    public void createTag() {
+    public void createTag(String name) {
         //TODO 2.1 implement the method
+        Tag tag = new Tag(name);
+
     }
 
     public void addTagToNote() {
